@@ -1,0 +1,13 @@
+﻿<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <ui:VisualElement class="root">
+        <ui:Label text="設定" class="title" />
+
+        <ui:Label text="BGM 音量" class="label" />
+        <ui:Slider name="bgmSlider" low-value="0" high-value="1" />
+
+        <ui:Label text="効果音" class="label" />
+        <ui:Toggle name="seToggle" text="ON/OFF" />
+
+        <ui:Button name="backButton" text="戻る" class="btn" />
+    </ui:VisualElement>
+</ui:UXML>
